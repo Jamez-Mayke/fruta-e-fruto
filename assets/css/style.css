@@ -1,7 +1,7 @@
 /**
   Cabeçalho do site
 */
-header {
+.cabecalho {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,26 +9,26 @@ header {
   padding: 0 2rem;
 }
 
-header nav ul {
+.menu-lista {
   display: flex;
   gap: 20px;
 }
 
-header nav ul li {
+.menu-item {
   list-style-type: none;
 }
 
-header nav ul li a {
+.menu-link {
   color: #808080;
   text-decoration: none;
   text-transform: lowercase;
 }
 
-header nav ul li a.active {
+.menu-link.active {
   color: #333333;
   font-weight: bold;
 }
 
-header nav ul li a:hover {
+.menu-link:hover {
   border-bottom: 2px solid #333333;
 }
