@@ -1,9 +1,20 @@
 .sobre__descricao {
-  font-size: 1.75rem;
   line-height: 33px;
   font-weight: 100;
   color: #8C8888;
   width: 65vw;
   margin: 0 auto;
   padding: 1rem;
+}
+
+@media screen and (min-width: 0) {
+  .sobre__descricao {
+    font-size: 1.3rem
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sobre__descricao {
+    font-size: 1.75rem;
+  }
 }
