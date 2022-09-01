@@ -1,6 +1,4 @@
 .pessoa__imagem {
-  width: 300px;
-  height: 300px;
   margin: 0 auto;
   border-radius: 100%;
 }
@@ -24,4 +22,25 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media screen and (min-width: 0) {
+  .pessoa__imagem {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pessoa__imagem {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pessoa__imagem {
+    width: 300px;
+    height: 300px;
+  }
 }
